@@ -1,0 +1,24 @@
+{
+  "name": "jGen",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "bundle": "webpack",
+    "start": "webpack-dev-server"
+  },
+  "keywords": [],
+  "author": "sanal panicker",
+  "license": "ISC",
+  "devDependencies": {
+    "bower": "^1.8.0",
+    "bower-webpack-plugin": "^0.1.9",
+    "jasmine-core": "^2.5.2",
+    "karma": "^1.4.1",
+    "karma-chrome-launcher": "^2.0.0",
+    "karma-jasmine": "^1.1.0",
+    "karma-webpack": "^2.0.2",
+    "webpack": "^1.14.0",
+    "webpack-dev-server": "^1.16.2"
+  }
+}

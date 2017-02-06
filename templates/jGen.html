@@ -1,0 +1,56 @@
+<header><span><img class="logo" src="../images/svg/curly-brackets.svg"></img></span></header>
+<section class="form_container left">
+  <form name="jGenForm" class="jgen-form">
+    <div class="f_i_wrap"><input name="table_name" ng-model="query.table_name" ng-required="true"></input><label for="table_name">Table Name </label>
+      <div class="tp wrapper">
+        <div class="tooltip">"Table Name used for the query"</div>
+      </div>
+    </div>
+    <div class="f_i_wrap"> <input type="date" name="start_time" ng-model="date.start_time" ng-change="startDate()" ng-required="true"></input><label for="start_time">Start Time </label>
+      <div
+        class="tp wrapper">
+        <div class="tooltip">"Start Time is converted to UNIX Epoch format""</div>
+    </div>
+    </div>
+    <div class="f_i_wrap"><input type="date" name="end_time" ng-model="date.end_time" ng-change="endDate()" ng-required="true"></input><label for="end_time">End Time </label>
+      <div
+        class="tp wrapper">
+        <div class="tooltip">"End Time is converted to  UNIX Epoch format""</div>
+    </div>
+    </div>
+    <br>
+    <div class="f_i_wrap tselect_div">
+      <label class="label" for="table_select">Select Table List</label>
+      <select name="table_select" class="tselect" ng-required="true" multiple="multiple" ng-model="query.select_fields">
+    <option ng-repeat="table in tableList" value="{{table}}">{{table}}</option>
+  </select>
+      <div class="tp wrapper">
+        <div class="tooltip">"Select all table names to be used for the query.Command + select multiple entries"</div>
+      </div>
+    </div>
+    <br>
+    <div class="f_i_wrap oselect_div">
+      <label class="label" for="operator_select">Select Operator List</label>
+      <select name="operator_select" class="tselect operator" multiple="multiple" ng-required="true" ng-model="operator_fields">
+    <option ng-repeat="operators in operatorList" value="{{operators}}">{{operators}}</option>
+  </select>
+      <div class="tp wrapper">
+        <div class="tooltip">"Select all operators to be used for the query.Command + select multiple entries"</div>
+      </div>
+    </div>
+    <br>
+    <label class="label">Query Builder</label>
+    <div class="qbuilder">
+      <div ng-click="generateQuery('Rule')" class="button qtype">Add Rule</div>
+      <div ng-click="generateQuery('Group')" class="button qtype">Add Group</div>
+      <div class="qbuild_container">
+      </div>
+    </div>
+  </form>
+  <br>
+  <div ng-click="validateJSON()" class="button">Validate</div>
+  <div ng-click="resetJSON()" class="button">Reset</div>
+</section>
+<section class="result_container right spacer">
+  <pre>{{query | json}}</pre>
+</section>
