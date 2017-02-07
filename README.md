@@ -5,12 +5,12 @@
 
 ## Synopsis
 
-Create a web interface that helps you find a local restaurant based on cuisine type and location using the Yelp API for local search.
+Given a JSON schema for a query, design and implement a UI to display a form that can be used to create this query. On submit of this form show the final Query JSON on the HTML page below the form.
 
-You can add any specific features you think are useful, but it should
-Allow searching by location
-Allow selection type of food (e.g. Pizza, Italian, Tapas, etc.)
-Allow sorting by rating or distance
+The form should display the help for the fields as per the description provided in the JSON schema.
+
+Write unit tests to test the validation of the above form.You can use any frontend framework/library such as Angular, Backbone, Bootstrap,jQuery etc.
+
 
 API test console here: https://www.yelp.com/developers/api_console
 
