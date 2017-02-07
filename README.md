@@ -46,20 +46,27 @@ Write unit tests to test the validation of the above form.You can use any fronte
 
 ● Karma + Jasmine for Unit testing
 
+
 ## Installation
 
 Download the source code and get to the root folder
-1) Run bower Installation :  $ bower install
-2) Run NPM Installation :  $ npm install
-3) Run webpack-dev-server installation : npm install webpack-dev-server -g [use sudo if you have permission issues]
+
+● Run bower Installation :  $ bower install
+
+● Run NPM Installation :  $ npm install
+
+● Run webpack-dev-server installation : npm install webpack-dev-server -g [use sudo if you have permission issues]
 
 you should have all the libs installed by now
 
-3)start bundling the application :$ npm run bundle
-4)Launch the application - real time refresh for CSS and HTML : $ sudo webpack-dev-server --hot --inline --open
+● start bundling the application :$ npm run bundle
 
-5) Application should lauch at http://localhost:8080/.
-6) Enjoy generating JSONQuery.
+● Launch the application - real time refresh for CSS and HTML : $ sudo webpack-dev-server --hot --inline --open
+
+● Application should lauch at http://localhost:8080/.
+
+● Enjoy generating JSONQuery.
+
 
 ## Tests
 
