@@ -61,9 +61,9 @@ you should have all the libs installed by now
 
 Test cases can be run by going to the root and running - Karma Start
 
-## Improvements that can be done in had more time
+## Improvements that could be done if I had more time
 
-1)The Query generation can add delete and add button to give more flexibity to rule and group creation
+1)The Query generation can add delete and add button to give more flexibity to rule and group creation.
 2)More detailed test cases could be written
-3)Error handling and validations could be more graceful and detialed
+3)Error handling and validations could be more graceful and detailed
 4)Could have a responvie UI.
