@@ -36,11 +36,15 @@ Write unit tests to test the validation of the above form.You can use any fronte
 
 ## Technology Stack
 
-Used Angular 1.5 framework for routing and data binding.
-Angular form validations
-Jquery for DOM manipulations
-Bundling and packaging using webpack
-Karma + Jasmine for Unit testing
+● Used Angular 1.5 framework for routing and data binding.
+
+● Angular form validations
+
+● Jquery for DOM manipulations
+
+● Bundling and packaging using webpack
+
+● Karma + Jasmine for Unit testing
 
 ## Installation
 
@@ -63,7 +67,10 @@ Test cases can be run by going to the root and running - Karma Start
 
 ## Improvements that could be done if I had more time
 
-1)The Query generation can add delete and add button to give more flexibity to rule and group creation.
-2)More detailed test cases could be written
-3)Error handling and validations could be more graceful and detailed
-4)Could have a responvie UI.
+● The Query generation can add delete and add button to give more flexibity to rule and group creation.
+
+● More detailed test cases could be written
+
+● Error handling and validations could be more graceful and detailed
+
+● Could have a responvie UI.
