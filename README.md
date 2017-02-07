@@ -11,9 +11,6 @@ The form should display the help for the fields as per the description provided 
 
 Write unit tests to test the validation of the above form.You can use any frontend framework/library such as Angular, Backbone, Bootstrap,jQuery etc.
 
-
-API test console here: https://www.yelp.com/developers/api_console
-
 ## Directory Structure
 
 ├── _images
